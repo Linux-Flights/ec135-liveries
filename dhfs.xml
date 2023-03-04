@@ -5,9 +5,9 @@
   <sim>
     <model>
       <livery>
-	<name type="string">Suffolk Police</name>
+	<name type="string">RAF 2 Squadron Defence Helicopter Flying School</name>
 	<index type="int">1</index>
-	<texture>liveries/suffolk_police.png</texture>
+	<texture>liveries/dhfs.png</texture>
       </livery>
       <!--<rotorblade>
 	  <name type="string">ANWB</name>
@@ -21,7 +21,7 @@
 	<DigitalSingle>false</DigitalSingle>	
 	<HEMS>true</HEMS>
 	<VIP>false</VIP>
-	<Utility>false</Utility>
+	<Utility>true</Utility>
 	<hide-gsdi>true</hide-gsdi>
 	<BigRadom>false</BigRadom>
 	<nose>false</nose><!--nose without frontlight-->
@@ -29,13 +29,13 @@
 	<smallradom>false</smallradom>
 	<!--or-->
 	<nosefl>true</nosefl><!--nose with frontlight-->
-	<searchlight_front>false</searchlight_front><!--only without radom and without nosefl-->
+	<searchlight_front>true</searchlight_front><!--only without radom and without nosefl-->
 	<searchlight_left>false</searchlight_left>
 	<FLIR>false</FLIR>
 	<windscreen_tri>false</windscreen_tri>
 	<!--or-->
 	<windscreen>true</windscreen>
-	<mirror>false</mirror>
+	<mirror>true</mirror>
 	<wirecutter_up>false</wirecutter_up>
 	<wirecutter_down>false</wirecutter_down>
 	<sandfilter>false</sandfilter>
@@ -43,7 +43,7 @@
 	<IBF>false</IBF>
 	<!--or-->
 	<nonIBF>true</nonIBF>
-	<winch>false</winch>
+	<winch>true</winch>
 	<SLLightR>false</SLLightR><!--Retractablelanding/SearchlightRight-->
 	<SLLightL>false</SLLightL><!--Retractablelanding/SearchlightLEFT-->
 	<loudspeaker>false</loudspeaker>
@@ -69,7 +69,7 @@
 	<!--or-->
 	<roundstep>false</roundstep>
 	<DoubleCargoHook>false</DoubleCargoHook>
-	<buckle>false</buckle><!--reardoor_buckle-->
+	<buckle>true</buckle><!--reardoor_buckle-->
 	<!--reardoors-->
 	<reardoor_winR>false</reardoor_winR><!--reardoor with window-->
 	<reardoor_winL>false</reardoor_winL><!--reardoor with window-->
